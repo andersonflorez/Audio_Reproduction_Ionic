@@ -1,0 +1,8 @@
+{
+  "name": "Audio_Reproduction_Ionic",
+  "app_id": "6c3990e8",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

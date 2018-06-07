@@ -1,0 +1,35 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Descargar y reproducir audio</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button block (click)="downloadAudio()">Descargar</button>
+  <hr>
+  <ion-card>
+    <ion-card-header>
+      <h1 class="title">Native Audio Example</h1>
+    </ion-card-header>
+    <ion-card-content>
+        <button ion-button color="light" icon-start (click)="playTrack()">
+            <ion-icon name="play"></ion-icon>
+            Play
+          </button>
+      
+          <button ion-button color="light" icon-start (click)="stopTrack()">
+            <ion-icon name="square"></ion-icon>
+            Stop
+          </button>
+    </ion-card-content>
+ </ion-card>
+</ion-content>
